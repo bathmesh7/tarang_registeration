@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarang'26 Registration</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef3f8;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        /* Event Poster */
+        .poster {
+            width: 100%;
+            display: block;
+        }
+
+        .form {
+            padding: 25px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #123c70;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 11px;
+            border: 1px solid #ccc;
+            border-radius: 7px;
+            font-size: 15px;
+        }
+
+        input:focus,
+        select:focus {
+            border-color: #1769aa;
+            outline: none;
+        }
+
+        .events {
+            margin-top: 15px;
+        }
+
+        .events label {
+            font-weight: normal;
+            margin: 8px 0;
+        }
+
+        .events input {
+            width: auto;
+            margin-right: 8px;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 13px;
+            border: none;
+            border-radius: 8px;
+            background: #e91e63;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #c2185b;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 15px;
+            color: #777;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- TARANG'26 Poster -->
+        <img src="tarang26.jpg" class="poster" alt="Tarang'26 Event Poster">
+
+        <div class="form">
+
+            <h2>Tarang'26 Registration</h2>
+
+            <form>
+
+                <label>Student Name</label>
+                <input type="text" placeholder="Enter your name" required>
+
+                <label>College Name</label>
+                <input type="text" placeholder="Enter your college name" required>
+
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required>
+
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Enter phone number" required>
+
+                <label>Department</label>
+                <input type="text" placeholder="Eg: B.Sc Computer Science">
+
+                <label>Select Event</label>
+
+                <div class="events">
+
+                    <label>
+                        <input type="checkbox">
+                        Unity in Hues - Rangoli
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Mehndi Muse - Mehndi
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Canvas of Hope - Painting
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Vibe Verse - Reels
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Green Genius - Wealth from Waste
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Cool Culinary - Flameless Cooking
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Brain Battle - Quiz
+                    </label>
+
+                </div>
+
+                <button type="submit">
+                    Register Now
+                </button>
+
+            </form>
+
+            <div class="footer">
+                TARANG'26 | Sree Saraswathi Thyagaraja College
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
